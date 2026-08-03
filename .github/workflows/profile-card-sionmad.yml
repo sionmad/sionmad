@@ -17,6 +17,6 @@ build:
     - uses: actions/checkout@v2
     - uses: vn7n24fzkq/github-profile-summary-cards@release
       env:
-        GITHUB_TOKEN: ${{ secrets.[YOUR_SECRET_TOKEN_NAME] }}
+        GITHUB_TOKEN: ${{ secrets.[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] }}
       with:
         USERNAME: ${{ github.repository_owner }}
